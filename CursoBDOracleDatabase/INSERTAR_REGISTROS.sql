@@ -1,0 +1,6 @@
+INSERT INTO TB_CATEGORIAS(CODIGO_CA,DESCRIPCION)
+                   VALUES(3,'EVENTOS');
+                   
+INSERT INTO TB_MEDIDAS(CODIGO_ME,ABREVIATURA_ME,DESCRIPCION)
+                   VALUES(3,'MTS','METROS');
+                   

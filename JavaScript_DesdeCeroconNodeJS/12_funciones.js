@@ -20,3 +20,18 @@ function saludar(nombre){
 var saludo = saludar('luis');
 console.log(saludo);
 console.log(saludar('luis'));
+
+//Expresiones o anonimas
+var suma = function(a,b){
+    return a+b;
+}
+console.log(suma(2,2));
+
+//arrow function
+var resta = (a,b) => {
+    return a-b;
+}
+console.log(resta(4,2));
+
+var multiplicar = (a,b) => a*b;
+console.log(multiplicar(2,2));
